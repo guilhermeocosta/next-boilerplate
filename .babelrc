@@ -1,3 +1,13 @@
 {
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "namespace": "boilerplate"
+      }
+    ]
+  ],
   "presets": ["next/babel", "@babel/preset-typescript"]
 }
